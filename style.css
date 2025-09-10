@@ -1,0 +1,51 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Source Serif 4", serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_container
+{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color:hsl(0, 0%, 100%);
+    width: 380px;
+    height: 530px;
+    border-radius: 15px;
+    
+    border:1px solid black;
+    box-shadow: 10px 5px 5px black;
+   
+}
+.img_card{
+    
+    border-radius:15px;
+    width:336px;
+    height:200px;
+}
+button{
+    background-color:  hsl(47, 88%, 63%);
+    color: black;
+    font-weight:bold;
+    font-size:small;
+    border-radius: 2px;
+    border: none;
+    padding:5px;
+}
+button:hover{
+    background-color: rgb(224, 233, 139);
+    font-size: medium;
+    padding:7px;
+}
+.blog{
+    padding:20px;
+}
+.avatar{
+    display:inline-flex;
+    justify-content: space-between;
+    gap:10px;
+    
+}
