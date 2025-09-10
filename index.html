@@ -8,32 +8,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
     <title>Frontend Mentor | Blog preview card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution { font-size: 11px; text-align: center; }
-      .attribution a { color: hsl(228, 45%, 44%); }
-    </style>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-<body>
-  <div class="card_container">
-    
-    <div class="blog">
-      <img class="img_card" src="assets/images/illustration-article.svg" >
-      <button type="button">Learning</button>
-      <h5>Published 21 Dec 2024</h5>
-      <h2>HTML & CSS foundations</h2>
-      <p>These languages are the backbone of every website, defining structure, cotent and presentation.</p>
-      <div class="avatar">
-        <img  src="assets/images/image-avatar.webp" width="64px" height="65px">
-        <h6>Greg Hooper</h6>
-      </div>
+<body class="bg-[#F4D04E] font-serif">
+    <div class="grid grid-cols-1 justify-center">
+        <div class="mx-auto border-2 border-black shadow-[10px_10px] rounded-xl bg-white md:max-w-xs my-10 ">
+            <img class="p-4" src="assets/images/illustration-article.svg" alt="Blog preview">
+            <button class="font-bold bg-[#F4D04E] mx-4 p-2 rounded-md">Learning</button>
+            <p class=" text-xs py-2 px-4 font-bold">Published 21 Dec 2024</p>
+            <h2 class="row-2 py-2 px-4 font-bold">HTML & CSS foundations</h2>
+            <p class="text-xs py-2 px-4 text-[#6B6B6B]">These languages are the backbone of every website, defining structure, cotent and presentation.</p>
+            <div class="avatar py-2 px-4 text-xs">
+                <img  src="assets/images/image-avatar.webp" >
+                <h6>Greg Hooper</h6>
+            </div>
+        </div>
     </div>
-  </div>
-    <!--<div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Eswari</a>.
-    </div>-->
 </body>
 </html>
+
+<!--"max-w-md mx-auto bg-white rounded-xl shadow-md  md:max-w-md my-10"-->
